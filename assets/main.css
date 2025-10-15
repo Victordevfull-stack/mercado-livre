@@ -1,0 +1,113 @@
+.navbar-nav .nav-link.active{
+            color: #fff;
+        }
+        .nav-link{
+            text-align: center;
+        }
+        section{
+            background-color: #f9f9f9;
+        }
+        header{
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            z-index: 1030;
+        }
+        #carousel-exemplo {
+            width: 100%; /* ocupa toda a largura disponível */
+            height: 350px;   /* altura fixa */
+            margin: 0 auto;
+            position: relative; /* para que os indicadores fiquem dentro do carrossel */
+        }
+
+        #carousel-exemplo img {
+            width: 100%;
+            height: 350px;  /* mesma altura do carrossel */
+            object-fit: cover; /* para preencher todo espaço sem distorcer */
+        }
+
+        .img-logo{
+            width: 200px;
+
+        }
+        .nav-pills .nav-link.active {
+            background-color: #ffc107; /* cor do btn-warning */
+            color: #212529;            /* cor do texto padrão btn-warning */
+        }
+        .dropdown-menu a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .submenu{
+            background-color: #ffc107;
+        }
+        .ajust-submenu{
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+    .produto-img {
+      width: 100%;
+      height: 220px;
+      object-fit: contain;
+      background-color: #fff;
+      padding: 15px;
+      border-bottom: 1px solid #e9ecef;
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
+    }
+
+    .card-title {
+      min-height: 3.6rem; /* para altura uniforme no título */
+      font-weight: 700;
+      font-size: 1.1rem;
+      line-height: 1.2;
+    }
+
+    .price {
+      color: #198754; /* verde bootstrp */
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+
+    .frete {
+      color: #6c757d;
+      margin-bottom: 1rem;
+      font-size: 0.9rem;
+    }
+
+    .btn {
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .btn-success:hover {
+      background-color: #157347;
+      color: #fff;
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: #6c757d;
+      color: #fff;
+    }
+
+    .card {
+      transition: box-shadow 0.3s ease;
+      border-radius: 0.5rem;
+      border: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card:hover {
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+.promo{
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+.modal-relative {
+  position: relative;
+}
